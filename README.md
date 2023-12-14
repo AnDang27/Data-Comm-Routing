@@ -142,7 +142,7 @@ The Routing Information Protocol (RIP) is an interior gateway protocol (IGP) tha
 - Some limitations from simulating our design with Cisco Packet Tracer are that we don't account for environmental factors that can affect wireless communication and all of our simulations are 2-dimensional
 
 
-### Video Link
+### Demo Video Link
 https://youtu.be/MCOwCoYdBCs 
 
 ### References
