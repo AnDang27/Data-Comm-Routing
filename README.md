@@ -120,4 +120,6 @@ https://youtu.be/PBiGjxHSmRI?si=2yI_E7FqAoILAdHM
 
 https://youtu.be/D7mAEs6m_UA?si=7UK8oXCf8rYM2lcH
 
+https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/rtng/b_1612_rtng_9300_cg/configuring_rip.pdf
 
+https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html
