@@ -54,11 +54,11 @@ The objective is to assess the performance of the distance-vector routing protoc
 
       6. Command to change root bridge if there are multiple root bridges or we manually need to change root bridge:
       
-            en
-            
-            config t
-            
-            spanning-tree vlan 1 root primary
+              en
+
+              config t
+
+              spanning-tree vlan 1 root primary
 
 2. Below commands used for Routers implementing RIP using the CLI terminal:
 
