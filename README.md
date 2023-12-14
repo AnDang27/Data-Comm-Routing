@@ -70,10 +70,11 @@ The objective is to assess the performance of the distance-vector routing protoc
 
 
     2. Command to ping end devices:
+       
             ping -t [destination IP address]
 
 
-    3. Command to determine administrative distance (used by routers to determine which protocol to use for routing):
+    4. Command to determine administrative distance (used by routers to determine which protocol to use for routing):
        
             en
        
