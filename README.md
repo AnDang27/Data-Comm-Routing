@@ -1,4 +1,4 @@
-# Data-Comm-Routing
+# Evaluation of Routing Protocols in a Simulated Network
 
 ### Problem Statement
 The objective is to assess the performance of the distance-vector routing protocol as well as the spanning tree routing protocol within a simulated network environment. The evaluation will focus on factors such as convergence time, scalability, resource utilization, and adaptability to network changes. The objective was achieved through the use of multiple simulated routers, switches, and end devices to form a complex topology, which included various subnets and allowed for the simulation of diverse network scenarios, such as redundant paths, network failures, and port security.
