@@ -61,7 +61,7 @@ STP and RSTP:
             no shut
 
 
-     5. Command to ping end devices:
+     5. Command to ping end devices (run on PC/end device command terminal):
      
             ping -t [destination IP address]
 
@@ -82,7 +82,7 @@ STP and RSTP:
             traceroute [destination IP address]
 
 
-    2. Command to ping end devices:
+    2. Command to ping end devices (run on PC/end device command terminal):
        
             ping -t [destination IP address]
 
