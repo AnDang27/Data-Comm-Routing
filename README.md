@@ -39,7 +39,8 @@ This file was developed to demonstrate the final network routing with RIP and ST
 
 ### Creating Network:
 Different networks can be constructed using the range of switches, routers, endpoints, and cables that Cisco Packet Tracer offers. STP, RSTP, and RIP can then be implemented using the instructions listed below.
-In the Routing_Demo.pkt we created the network using switches, routers, and PC’s. When connecting PCs to switches and routers to switches copper straight-through wires were used. When connecting routers to routers, routers to PCs, and switches to switches, copper cross-over wires were used. All connections were made between fast ethernet ports of each respective device. For setting up the routers, in some cases we had to go into the physical tab to add a NM-1FE-TX module to the router to add another fast ethernet port. Each port in use had to be configured on each router and PC, under the config tab, with an IPv4 address and subnet mask. That port also had to be turned on by selecting a box in the top right corner. For the routers, RIP routing had to be configured under the config tab by adding each of the IPv4 addresses from ports that are in use. Wait for the two green arrows to appear on each wire to show that the connection is up and ready for use. The commands below then can be run in realtime mode or the network can be run in simulation mode.
+In the Routing_Demo.pkt we created the network using switches, routers, and PC’s. When connecting PCs to switches and routers to switches copper straight-through wires were used. When connecting routers to routers, routers to PCs, and switches to switches, copper cross-over wires were used. All connections were made between fast ethernet ports of each respective device. For setting up the routers, in some cases we had to go into the physical tab to add a NM-1FE-TX module to the router to add another fast ethernet port. Each port in use had to be configured on each router and PC, under the config tab, with an IPv4 address and subnet mask. That port also had to be turned on by selecting a box in the top right corner. For the routers, RIP routing had to be configured under the config tab by adding each of the IPv4 addresses from ports that are in use. Wait for the two green arrows to appear on each wire to show that the connection is up and ready for use. The commands below then can be run in realtime mode or the network can be run in simulation mode. This file was made as a culmination of the other files within this github, most of which were designed by following tutorials linked within our references.
+
 
 ### Information
 
@@ -137,9 +138,12 @@ The Routing Information Protocol (RIP) is an interior gateway protocol (IGP) tha
 ### Lesson Learned
 
 - Even what appeared to be the simplest software has somewhat of a learning curve.
-- CPT is mostly for simple network verification and learning. 
+- Cisco Packet Tracer is mostly for simple network verification and learning. 
 - There were limitations with Cisco Packet Tracer in terms of finding applicable metrics
 - Some limitations from simulating our design with Cisco Packet Tracer are that we don't account for environmental factors that can affect wireless communication and all of our simulations are 2-dimensional
+- How to navigate STP, RSTP, RIP and routers, switchs configurations/commands in a simulated environment.
+- Better understanding of how RSTP, STP, and RIP function in the real world.
+- How to identify reliable resources for research
 
 
 ### Demo Video Link
