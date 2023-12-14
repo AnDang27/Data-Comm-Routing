@@ -35,7 +35,11 @@ This file was developed to see behavior of RSTP when implemented in a large netw
 This file was developed to see behavior of STP when implemented in a medium network and see the difference in the convergence time. 
 
 #### Routing_Demo.pkt:
-This file was developed to demonstrate the final network routing with RIP and STP.. The network presented in the Routing_Demo.pkt shows implementation of multiple routing protocols like Spanning-Tree Protocol, Rapid Spanning-Tree Protocol and Routing Information Protocol.
+This file was developed to demonstrate the final network routing with RIP and STP. The network presented in the Routing_Demo.pkt shows implementation of multiple routing protocols like Spanning-Tree Protocol on switches at the left, Rapid Spanning-Tree Protocol on switches at the right and Routing Information Protocol.
+
+### Creating Network:
+Different networks can be constructed using the range of switches, routers, endpoints, and cables that Cisco Packet Tracer offers. STP, RSTP, and RIP can then be implemented using the instructions listed below.
+In the Routing_Demo.pkt we created the network using switches, routers, and PC’s. When connecting PCs to switches and routers to switches copper straight-through wires were used. When connecting routers to routers, routers to PCs, and switches to switches, copper cross-over wires were used. All connections were made between fast ethernet ports of each respective device. For setting up the routers, in some cases we had to go into the physical tab to add a NM-1FE-TX module to the router to add another fast ethernet port. Each port in use had to be configured on each router and PC, under the config tab, with an IPv4 address and subnet mask. That port also had to be turned on by selecting a box in the top right corner. For the routers, RIP routing had to be configured under the config tab by adding each of the IPv4 addresses from ports that are in use. Wait for the two green arrows to appear on each wire to show that the connection is up and ready for use. The commands below then can be run in realtime mode or the network can be run in simulation mode.
 
 ### Information
 
