@@ -5,6 +5,8 @@ The objective is to assess the performance of the distance-vector routing protoc
 
 ### Bellman Ford
 
+The Routing Information Protocol (RIP) is an interior gateway protocol (IGP) that was developed to be used in small, homogeneous networks. RIP is a distance vector routing protocol, like Bellman-Ford, that utilizes broadcast User Datagram Protocol (UDP) packets to exchange routing information. Routing information updates are sent every 30 seconds from the router. If a router doesn’t receive an update from another router for 180 seconds or more then the routes that use that router are marked as unusable. After 240 seconds if there is still no update then the routes marked as unusable will be removed from the routing table. RIP uses hop counts as the metric for rating different routes. The hop count is the number of routers that are passed through in a given route. If the hop count of a route is greater than 15 then the route is determined to be unreachable, which is why RIP is less suitable for large networks. RIP routing also has to be configured within each of the routers by entering all of the IP addresses of the ports used on the router to allow packets to be transmitted through them.
+
 ### Spanning Tree
 
 The network presented in the Routing_Demo.pkt shows implementation of multiple routing protocols like Spanning-Tree Protocol, Rapid Spanning-Tree Protocol and Routing Information Protocol.
