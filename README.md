@@ -7,6 +7,19 @@ The objective is to assess the performance of the distance-vector routing protoc
 
 ### Spanning Tree
 
+The network presented in the Routing_Demo.pkt shows implementation of multiple routing protocols like Spanning-Tree Protocol, Rapid Spanning-Tree Protocol and Routing Information Protocol.
+
+STP and RSTP: 
+
+- Configuration bridge protocol data units (BPDUs) and other information will be sent by this selected root bridge to its directly linked switches, who will then transmit the BPDUs to their surrounding switches. Every switch has a bridge ID priority value (BID), which is made up of the switch's MAC address and priority value (which is 32768 by default). The root bridge will be the switch with the lowest BID.
+  
+- The following steps will be taken in this process until a root port is chosen:
+1. A switch port recognizes another switch as the root bridge when it gets superior BPDUs from that switch.
+2. If it is feasible, the port with the lowest root path is chosen as the root port.
+3. The switch will designate the port with the lowest sender BID as the root port if the path cost is equal.
+4. The port on the sending switch with the lowest physical port number will be chosen as the root bridge (as the last tiebreaker) if the sender BID is the same, which is typically the same switch.
+
+
 1. Below commands were used to configure Switches implementing STP and RSTP using the CLI terminal:
 
     1. Command to enable STP:
