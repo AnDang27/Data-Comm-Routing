@@ -130,6 +130,13 @@ The Routing Information Protocol (RIP) is an interior gateway protocol (IGP) tha
        
             show ip route
 
+### Lesson Learned
+
+- Even what appeared to be the simplest software has somewhat of a learning curve.
+- CPT is mostly for simple network verification and learning. 
+- There were limitations with Cisco Packet Tracer in terms of finding applicable metrics
+- Some limitations from simulating our design with Cisco Packet Tracer are that we don't account for environmental factors that can affect wireless communication and all of our simulations are 2-dimensional
+
 
 ### Video Link
 https://youtu.be/MCOwCoYdBCs 
