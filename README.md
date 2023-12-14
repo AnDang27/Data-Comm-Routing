@@ -97,7 +97,7 @@ STP and RSTP:
 ### Video Link
 https://youtu.be/MCOwCoYdBCs 
 
-### Reference
+### References
 https://youtu.be/En9nqOF_2rY?si=i2865QSubR9CDVvI
 
 https://youtu.be/e1cD2KIme-E?si=_zd5gxkyi68u1fSQ
